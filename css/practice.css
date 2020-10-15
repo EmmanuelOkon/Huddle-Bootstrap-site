@@ -1,0 +1,134 @@
+* {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    background-color: #23415C !important;
+    padding: 1% 0;
+    font-size: 1.2em;
+    flex-wrap: nowrap !important;
+}
+
+.navbar-brand {
+    min-height: 55px;
+    padding: 0 15px 5px;
+}
+
+.navbar-default .navbar-nav li a {
+    color: #D5D5D5 !important;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li.active {
+    color: #FFF !important;
+}
+
+#home {
+    background: url(../images/header-background.jpg) no-repeat center center fixed;
+    display: table !important;
+    height: 100vh !important;
+    position: relative;
+    width: 100% !important;
+    background-size: cover !important;
+}
+
+.landing-text {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.landing-text h1 {
+    font-size: 500%;
+    font-weight: 700;
+}
+
+.btn-primary {
+    color: #FFF;
+    background-color: #23415C !important;
+    border-style: none !important;
+    border-radius: 25px !important;
+    padding: 10px 40px !important;
+}
+
+.btn-primary:hover {
+    color: #FFF;
+    background-color: #30608a !important;
+}
+
+
+.padding {
+    padding: 80px 0 !important;
+}
+
+.padding img {
+    width: 100%;
+}
+
+#fixed {
+    background: url(../images/workstation\ 2.jpg) no-repeat center center fixed;
+    display: table;
+    height: 60%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+
+footer {
+    height: 50% !important;
+    width: 100%;
+    background-color: #23415C;
+    padding: 5% 5% 10% 5%;
+    color: #FFF;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 25px;
+    color: #FFF;
+}
+
+.fa:hover {
+    color: #D5D5D5;
+    text-decoration: none;
+}
+
+.icon {
+    max-width: 200px ;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        max-width: 200px !important;
+    }
+    footer {
+        height: 35vh !important;
+    }
+
+    .landing-text h1 {
+        font-size: 300%;
+    }
+
+
+    .fa {
+        font-size: 20px !important;
+        padding: 10px !important;
+    }
+
+    .icon {
+        padding-top: 5% !important;
+        max-width: 100px !important;
+    }
+}
+
+@media (max-width: 320px) {
+    footer {
+        height: 70vh !important;
+    }
+}
+
+
